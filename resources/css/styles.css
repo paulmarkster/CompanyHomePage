@@ -1,0 +1,86 @@
+/* General properties */
+
+html {
+    font-size: 16px;
+}
+h1 {
+    font-size: 2.5rem;
+}
+
+/* Header properties */
+header {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 2;
+}
+nav {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+nav img {
+    padding: 1rem;
+}
+nav ul {
+    margin-left: auto;
+    padding: 1rem;
+}
+nav li {
+    display: inline;
+    margin-left: 1rem;
+    text-decoration: underline;
+}
+
+/* Mission */
+#banner {
+    position: relative;
+    padding-top: 70px;
+    display: flex;
+    width: 100%;
+    height: 20rem;
+    background: url("../images/DataCenter.jpg") no-repeat center center;
+    background-size: cover;
+}
+#banner p {
+    width: 80%;
+    color: black;
+    margin: auto;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+#banner p span {
+    background-color: lightgoldenrodyellow;
+}
+/* Products and Team */
+.title h1 {
+    text-decoration: underline;
+    color: darkgreen;
+    text-align: center;
+    margin: 2rem 0;
+}
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.item {
+    flex-basis: 30%;
+}
+.item img {
+    max-width: 100%;
+}
+.item p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+/* Footer */
+footer p {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: lightgoldenrodyellow;
+}
